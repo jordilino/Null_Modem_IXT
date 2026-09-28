@@ -2,9 +2,6 @@
 
 `Null_Modem_IXT` és un mòdul de maquinari lliure dissenyat per a la commutació i monitorització de senyals en línies de comunicació sèrie RS-232. Permet alternar fàcilment entre una connexió directa pas a pas (*pass-through*) i una configuració creuada *Null Modem* mitjançant un commutador DIP d'alta durabilitat, incorporant punts de presa de massa dedicats per a sondes d'oscil·loscopi i instrumentació de laboratori.
 
-<p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/Open_Source_Hardware_Logo.svg" alt="Logo OSHWA" width="120"/>
-</p>
 Aquest projecte està dissenyat per complir amb la definició de Maquinari Lliure de l'OSHWA (Open Source Hardware Association).
 
 ---
