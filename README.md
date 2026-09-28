@@ -13,7 +13,7 @@ This project is certified (pending submission) as Open Source Hardware under the
 * **Primary Connectors**: 2× DB9 Female Right-Angle (90°) THT connectors with UNC 4-40 jack screws
 * **DIP Switch**: Omron A6T Series (or equivalent) rated for $\ge 1,000$ operations min.
 * **Ground Reference**: 
-  * 1× 1× 4 mm Banana Socket / Test Point for lab power supply or chassis ground
+  * 1×4 mm Banana Socket / Test Point for lab power supply or chassis ground
 
 ---
 
