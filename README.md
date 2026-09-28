@@ -2,7 +2,11 @@
 
 `Null_Modem_IXT` is an open-source hardware board designed for RS-232 serial communication switching and signal monitoring. It allows users to toggle between a direct pass-through connection and a Null Modem cross-over configuration using a high-durability DIP switch, featuring dedicated test points for oscilloscope grounding and lab instrumentation.
 
-This project is certified (pending submission) as Open Source Hardware under the OSHWA definition.
+## Hardware Overview
+
+| Front View | Back View | Lab Test Setup |
+| :---: | :---: | :---: |
+| ![Null Modem IXT Front](img/Null_Modem_IXT_Front.png) | ![Null Modem IXT Back](img/Null_Modem_IXT_Back.png) | ![Null Modem IXT Test](img/Null_Modem_IXT_Test.png) |
 
 ---
 
@@ -24,6 +28,10 @@ Null_Modem_IXT/
 ├── LICENSE_DOCUMENTATION       # CC-BY-SA 4.0 License
 ├── README.md                   # Main English documentation
 ├── README_CA.md                # Catalan documentation
+├── img/                        # Project photos & test setups
+│   ├── Null_Modem_IXT_Front.png
+│   ├── Null_Modem_IXT_Back.png
+│   └── Null_Modem_IXT_Test.png
 ├── hardware/                  # KiCad source design files
 │   ├── Null_Modem_IXT.kicad_pro
 │   ├── Null_Modem_IXT.kicad_sch
@@ -62,4 +70,3 @@ This project fully complies with the [OSHWA Open Source Hardware Definition](htt
 * **Hardware Design** (Schematics, PCB layout, Gerbers): Licensed under the **CERN Open Hardware Licence Strongly Reciprocal v2** ([CERN-OHL-S-v2](https://ohwr.org/cern_ohl_s_v2.txt)).
 * **Documentation & Media**: Licensed under the **Creative Commons Attribution-ShareAlike 4.0 International License** ([CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)).
 
-OSHWA Registration ID: *Pending Submission (ES0000XX)*
