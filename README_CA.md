@@ -22,6 +22,8 @@ Aquest projecte està dissenyat per complir amb la definició de Maquinari Lliur
 ---
 
 ## Estructura del Repositori
+
+```text
 Null_Modem_IXT/
 ├── LICENSE.txt                # Termes de llicència de hardware i documentació
 ├── README.md                  # Documentació principal en anglès
@@ -43,8 +45,8 @@ Null_Modem_IXT/
 │   ├── Null_Modem_IXT_BOM.csv
 │   └── Null_Modem_IXT_Schematic.pdf
 └── docs/                      # Guies de muntatge i verificació
-└── assembly_guide.md
-
+    └── assembly_guide.md
+```
 ---
 
 ## Llista de Materials (BOM)
