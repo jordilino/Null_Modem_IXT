@@ -7,23 +7,23 @@ This project is certified (pending submission) as Open Source Hardware under the
 ---
 
 ## Technical Specifications
-* **PCB Dimensions**: 70.01 mm × 51.96 mm[cite: 3]
-* **Design Software**: KiCad 9.0.3[cite: 1]
-* **Layer Count**: 2-layer THT design (Top Copper / Bottom Copper)[cite: 1, 4]
+* **PCB Dimensions**: 70.01 mm × 51.96 mm
+* **Design Software**: KiCad 9.0.3
+* **Layer Count**: 2-layer THT design (Top Copper / Bottom Copper)
 * **Primary Connectors**: 2× DB9 Female Right-Angle (90°) THT connectors with UNC 4-40 jack screws
 * **DIP Switch**: Omron A6T Series (or equivalent) rated for $\ge 1,000$ operations min.
 * **Ground Reference**: 
-  * 1× Mechanical Turret Terminal for oscilloscope probe crocodile clips
-  * 1× 4 mm Banana Socket for lab power supply or chassis ground
+  * 1× 1× 4 mm Banana Socket / Test Point for lab power supply or chassis ground
 
 ---
 
 ## Repository Structure
 ```text
 Null_Modem_IXT/
-├── LICENSE.txt                # Hardware & Documentation License terms
-├── README.md                  # Main English documentation
-├── README_CA.md               # Catalan documentation
+├── LICENSE_HARDWARE            # CERN-OHL-S-v2 License
+├── LICENSE_DOCUMENTATION       # CC-BY-SA 4.0 License
+├── README.md                   # Main English documentation
+├── README_CA.md                # Catalan documentation
 ├── hardware/                  # KiCad source design files
 │   ├── Null_Modem_IXT.kicad_pro
 │   ├── Null_Modem_IXT.kicad_sch
@@ -40,8 +40,6 @@ Null_Modem_IXT/
 │   │   └── Null_Modem_IXT.drl
 │   ├── Null_Modem_IXT_BOM.csv
 │   └── Null_Modem_IXT_Schematic.pdf
-└── docs/                      # Assembly and testing guides
-└── assembly_guide.md
 ```
 ---
 
