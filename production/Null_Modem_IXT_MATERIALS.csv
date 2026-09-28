@@ -1,0 +1,5 @@
+"Id";"Identificador";"Huella";"Cantidad";"Identificación";"Suministrador y ref";
+1;"J1, J2";"DSUB-9_Socket_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset4.94mm";2;"DE9_Socket";"DB9 Femella 90° THT amb orificis de fixació";
+2;"PINFEMELLA(a)1, PINFEMELLA(b)1";"PinSocket_2x06_P2.54mm_Vertical";2;"Conn_02x06_Odd_Even";"Tira de presa de connexió 2x06 2.54mm";
+3;"InterruptorAtoB1";"SW_DIP_SPSTx06_Slide_9.78x17.42mm_W7.62mm_P2.54mm";1;"A to B";"Omron A6T-6104 (Commutador DIP 6 posicions)";
+4;"GND(banana)1";"TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded";1;"Terra";"Zòcol de massa banana / punt de prova";
