@@ -2,8 +2,6 @@
 
 `Null_Modem_IXT` is an open-source hardware board designed for RS-232 serial communication switching and signal monitoring. It allows users to toggle between a direct pass-through connection and a Null Modem cross-over configuration using a high-durability DIP switch, featuring dedicated test points for oscilloscope grounding and lab instrumentation.
 
-![OSHWA Logo](https://raw.githubusercontent.com/oshwa/oshw-logo/master/oshw-logo.svg)
-
 This project is certified (pending submission) as Open Source Hardware under the OSHWA definition.
 
 ---
@@ -21,6 +19,7 @@ This project is certified (pending submission) as Open Source Hardware under the
 ---
 
 ## Repository Structure
+```text
 Null_Modem_IXT/
 ├── LICENSE.txt                # Hardware & Documentation License terms
 ├── README.md                  # Main English documentation
@@ -43,7 +42,7 @@ Null_Modem_IXT/
 │   └── Null_Modem_IXT_Schematic.pdf
 └── docs/                      # Assembly and testing guides
 └── assembly_guide.md
-
+```
 ---
 
 ## Bill of Materials (BOM)
