@@ -1,6 +1,10 @@
 # Null Modem IXT
 
-`Null_Modem_IXT` is an open-source hardware board designed for RS-232 serial communication switching and signal monitoring. It allows users to toggle between a direct pass-through connection and a Null Modem cross-over configuration using a high-durability DIP switch, featuring dedicated test points for oscilloscope grounding and lab instrumentation.
+[![OSHWA Certified ES000060](https://img.shields.io/badge/OSHWA%20UID-ES000060-008080?style=flat-square)](https://certification.oshwa.org/es000060.html)
+[![Hardware License: CERN-OHL-S v2](https://img.shields.io/badge/Hardware%20License-CERN--OHL--S--v2-blue?style=flat-square)](https://ohwr.org/cern_ohl_s_v2.txt)
+[![Docs & Software License: CC BY-SA 4.0](https://img.shields.io/badge/Docs%20%26%20Software-CC%20BY--SA%204.0-lightgrey?style=flat-square)](https://creativecommons.org/licenses/by-sa/4.0/)
+
+`Null_Modem_IXT` is an open-source hardware board (v1.0) designed for RS-232 serial communication switching and signal monitoring. It allows users to toggle between a direct pass-through connection and a Null Modem cross-over configuration via a 6-position DIP switch, featuring integrated breakout test headers and dedicated ground references for oscilloscope probes and lab instrumentation.
 
 ## Hardware Overview
 
