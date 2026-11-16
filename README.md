@@ -4,7 +4,7 @@
 [![Hardware License: CERN-OHL-S v2](https://img.shields.io/badge/Hardware%20License-CERN--OHL--S--v2-blue?style=flat-square)](https://ohwr.org/cern_ohl_s_v2.txt)
 [![Docs & Software License: CC BY-SA 4.0](https://img.shields.io/badge/Docs%20%26%20Software-CC%20BY--SA%204.0-lightgrey?style=flat-square)](https://creativecommons.org/licenses/by-sa/4.0/)
 
-`Null_Modem_IXT` is an open-source hardware board (v1.0) designed for RS-232 serial communication switching and signal monitoring. It allows users to toggle between a direct pass-through connection and a Null Modem cross-over configuration via a 6-position DIP switch, featuring integrated breakout test headers and a dedicated PCB GND test point for attaching an oscilloscope alligator clip.
+`Null_Modem_IXT` is an open-source hardware board (v1.0) designed for RS-232 serial communication switching and signal monitoring. It allows users to toggle between a direct pass-through connection and a Null Modem cross-over configuration via a 6-position DIP switch, featuring integrated female test headers for oscilloscope signal probing and a dedicated PCB GND test point for attaching an oscilloscope alligator clip.
 
 ## Hardware Overview
 
@@ -22,7 +22,7 @@
 - **Primary Connectors**: 2× DB9 Female Right-Angle (90°) THT connectors with UNC 4-40 jack screws
 - **DIP Switch**: Omron A6T Series (or equivalent), 6-position slide switch (12-pin DIP package) rated for $\ge 1,000$ operations min.
 - **Test & Ground Interfaces**:
-  - 2× 12-pin female breakout/break-in test headers (2.54 mm pitch), one on each side
+  - 2× 12-pin female test headers (2.54 mm pitch), one on each side, for connecting jumper wires to oscilloscope probes
   - 1× PCB GND Test Point for oscilloscope ground alligator clip attachment
 
 ---
@@ -64,7 +64,7 @@ Null_Modem_IXT/
 | :--- | :--- | :--- | :--- | :--- |
 | J1, J2 | 2 | DB9 Female 90° | DB9_Female_RightAngle_THT | RS-232 Female Connector, 90° PCB Mount |
 | InterruptorAtoB1 | 1 | Omron A6T DIP Switch | DIP-12 Slide Switch | 6-Position DIP Switch, 12-pin ($\ge 1,000$ cycles) |
-| PINFEMELLA(a)1, PINFEMELLA(b)1 | 2 | Female Pin Header 12x1 | PinHeader_1x12_P2.54mm_Vertical | Breakout / Break-in test headers |
+| PINFEMELLA(a)1, PINFEMELLA(b)1 | 2 | Female Pin Header 12x1 | PinHeader_1x12_P2.54mm_Vertical | Signal monitoring headers for oscilloscope probing |
 | GND1 | 1 | PCB GND Test Point | TestPoint_Loop_THT | Ground test point for oscilloscope alligator clip |
 
 ---
