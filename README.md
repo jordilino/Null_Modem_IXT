@@ -4,7 +4,7 @@
 [![Hardware License: CERN-OHL-S v2](https://img.shields.io/badge/Hardware%20License-CERN--OHL--S--v2-blue?style=flat-square)](https://ohwr.org/cern_ohl_s_v2.txt)
 [![Documentation License: CC BY-SA 4.0](https://img.shields.io/badge/Docs%20License-CC%20BY--SA%204.0-lightgrey?style=flat-square)](https://creativecommons.org/licenses/by-sa/4.0/)
 
-Passive open-source hardware board (v1.0) for RS-232 serial communication switching and signal monitoring, developed for the Telematics Laboratories at UPC (Campus Nord). It implements a 6-position DIP switch (`SW2`) for Null Modem cross-over connections and provides two duplicated pairs of 1×6 female pin headers (`J3`/`J4` and `J5`/`J6`) plus a PCB GND test point (`J7`) for oscilloscope probing and custom jumper patching.
+Passive open-source hardware board (v1.0) for RS-232 serial communication switching and signal monitoring, developed for the Telematics Laboratories at UPC (Campus Nord). It uses a 6-position DIP switch (`SW2`) for Null Modem cross-over connections, two duplicated pairs of 1×6 female pin headers (`J3`/`J4` and `J5`/`J6`) for signal probing and custom jumper patching, and a dedicated PCB GND test point (`J7`) for the oscilloscope ground clip.
 
 ## Hardware Overview
 
